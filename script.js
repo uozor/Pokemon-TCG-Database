@@ -27,22 +27,20 @@ pokemon.card.find('base1-4')
  //https://api.pokemontcg.io/v2/cards?q=name:gardevoir
 })
 
-.then((resjson) => {
-        lyrics = resjson.lyrics
 */
 document.querySelector('#searchPoke').addEventListener('click', () => {
   fetch('https://api.pokemontcg.io/v2/cards?q')
     .then((res) => res.json(images))
     .then((data) => {
       console.log(data);
+
       const poke = document.querySelector(".poke").value;
       //document.querySelector(".poke").value;
-    
       console.log(poke)
       data.data.forEach(card => {
         if (poke.toLowerCase() == card.name.toLowerCase()) {
           let option = document.createElement('img');
-          //option.textContent = `${card.name} ${card.id}`;
+          option.textContent = `${card.name} ${card.id}`;
           option.src = card.images.small;
           option.classList.add('gen');
           body.append(option);
