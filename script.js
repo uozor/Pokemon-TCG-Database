@@ -58,3 +58,11 @@ document.querySelector('#searchPoke').addEventListener('click', () => {
 
 
 //Object.entries pokemon.forEach(), =>
+
+for () {
+  const image = document.createElement('div');
+  pokeName.textContent = `name:${name}[]`;
+    //document.createElement('div');
+
+
+}
