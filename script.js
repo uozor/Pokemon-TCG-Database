@@ -33,8 +33,8 @@ pokemon.card.find('base1-4')
 document.querySelector('#searchPoke').addEventListener('click', () => {
   fetch('https://api.pokemontcg.io/v2/cards?q')
     .then((res) => res.json(images))
-    .then((data) => {
-      console.log(data);
+    .then(() => {
+      //console.log();
       const poke = document.querySelector(".poke").value;
       //document.querySelector(".poke").value;
     
