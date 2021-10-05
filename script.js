@@ -43,10 +43,10 @@ document.querySelector('#searchPoke').addEventListener('click', () => {
           option.classList.add('gen');
           body.append(option);
           //sel.classList.remove('hide');
-          img.src = option.value;
+          images.src = option.value;
           option.addEventListener('click', function () {
-            img.src = option.value;
-            console.log(img.src);
+            images.src = option.value;
+            console.log(images.src);
           });
         }
                
