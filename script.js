@@ -1,5 +1,6 @@
 const poke = document.body.querySelector(".poke").value;
 const body = document.body
+const images = document.body.querySelector.value
 /*export default {
   host: 'https://api.pokemontcg.io/v2'
 }  
@@ -23,12 +24,15 @@ export default {
 pokemon.card.find('base1-4')
 .then(card => {
     console.log(card.name) // "Charizard"
-
+ //https://api.pokemontcg.io/v2/cards?q=name:gardevoir
 })
+
+.then((resjson) => {
+        lyrics = resjson.lyrics
 */
 document.querySelector('#searchPoke').addEventListener('click', () => {
-  fetch('https://api.pokemontcg.io/v2/cards')
-    .then((res) => res.json())
+  fetch('https://api.pokemontcg.io/v2/cards?q')
+    .then((res) => res.json(images))
     .then((data) => {
       console.log(data);
       const poke = document.querySelector(".poke").value;
@@ -43,13 +47,16 @@ document.querySelector('#searchPoke').addEventListener('click', () => {
           option.classList.add('gen');
           body.append(option);
           //sel.classList.remove('hide');
-          images.src = option.value;
+          let images = option.value;
           option.addEventListener('click', function () {
-            images.src = option.value;
-            console.log(images.src);
+            images = option.value;
+            console.log(images);
           });
         }
                
       });
     });
 });//catch ((err) => console.log(err));
+
+
+//Object.entries pokemon.forEach(), =>
