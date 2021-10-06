@@ -1,4 +1,8 @@
-### App Title: POKEMON TCG DATABASE
+POKEMON TCG DATABASE
+https://uozor.github.io/Pokemon-TCG-Database/
+______________________________________________________________=>
+
+### App Title: POKEMON TCG DATABASE 
 
 ### App Description: Look up any pokemon card with a name
 
@@ -254,6 +258,9 @@ Build tasks are in npm scripts:
 
     npm run build
     npm run test
+    
+    
+    
 MVP
 _____________________________________ =>
 App built with JS/CSS/HTML
