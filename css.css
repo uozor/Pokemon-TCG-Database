@@ -15,6 +15,10 @@
 
 .poke {
  border-radius: 50px;
+ font-size: 1rem;
+}
+placeholder{
+
 }
 #search{
   border-radius: 50px;
@@ -35,7 +39,12 @@ header {
 #title {
   color: white;
   text-align: center;
+  font-weight: 900;
+  padding: auto;
   align-content: center;
-  background-image: url('https://lh3.googleusercontent.com/I6vcHs6Xhvz619j4S_4ptsthuQNrFej1nIT6x4okp45FcE0vUKYIAjVmRx1tngDumbRd=s128');
-}
+  background-image:linear-gradient(
+    rgba(0, 0, 0, 0.5),
+    rgba(0, 0, 0, 0.5)
+  ), url('https://lh3.googleusercontent.com/I6vcHs6Xhvz619j4S_4ptsthuQNrFej1nIT6x4okp45FcE0vUKYIAjVmRx1tngDumbRd=s128');
 
+}

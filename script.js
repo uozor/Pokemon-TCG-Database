@@ -1,4 +1,4 @@
-
+const apiKey = '136d6387-8b2d-420f-8c25-818eacc18ebc';
 const body = document.body;
 //const images = document.body.querySelector.value.id
 /*export default {
