@@ -1,3 +1,6 @@
+*{
+  box-sizing: border-box;
+}
 #pokeGrid {
 
   flex-direction: column;
@@ -17,7 +20,15 @@
 }
 
 body {
-  background-image:'https://upload.wikimedia.org/wikipedia/en/thumb/3/3b/Pokemon_Trading_Card_Game_cardback.jpg/220px-Pokemon_Trading_Card_Game_cardback.jpg';
+  background-color: black;
   display: flex;
   justify-content: center;
+  margin: 0;
+
+}
+
+header {
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 9px;
 }
