@@ -5,8 +5,8 @@
 
   display: flex;
   flex-flow: wrap;
-  margin: 2 2 2 2;
-  justify-content: flex-end;
+  margin: 3px 2 2 2;
+  justify-content: flex-start;
 
 }
 
