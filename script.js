@@ -43,14 +43,16 @@ document.querySelector('#search').addEventListener('click', () => {
         if (pokemon.toLowerCase() == card.name.toLowerCase()) {
           let option = document.createElement('img');
           option.textContent = `${card.name} ${card.id}`;
+          
           option.src = card.images.small;
-          option.classList.add('gen');
+            option.classList.add('gen');
           document.getElementById('pokeGrid').append(option);
           //sel.classList.remove('hide');
           //let images = option.value;
           option.addEventListener('click', function () {
             images = option.value;
             return(images);
+          
           });
         }
                

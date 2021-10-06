@@ -14,6 +14,11 @@
 
   
 }
+.audioBox{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 
 .poke {
  border-radius: 50px;
@@ -42,7 +47,8 @@ header {
   color: white;
   text-align: center;
   font-weight: 900;
-  padding: auto;
+  box-shadow: 1px 0 2px 0;
+  padding: 10px;
   align-content: center;
   background-image:linear-gradient(
     rgba(0, 0, 0, 0.5),
