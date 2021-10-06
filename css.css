@@ -1,4 +1,7 @@
 #pokeGrid {
-display: flexbox;
 display: flex;
+}
+
+#flex-container {
+  flex-wrap:wrap;
 }
