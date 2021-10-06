@@ -4,7 +4,8 @@ ______________________________________________________________=>
 
 # App Title: POKEMON TCG DATABASE 
 
-## App Description: Look up any pokemon card with a name
+## App Description: 
+Look up any pokemon card within the database
 
 API: THE POKÉMON TCG API
      https://api.pokemontcg.io/v2/cards 
@@ -711,7 +712,7 @@ Build tasks are in npm scripts:
     
     
     
-MVP
+# MVP
 _____________________________________ =>
 App built with JS/CSS/HTML
 Styled WITH Flexbox
@@ -727,10 +728,10 @@ A README.md file that contains your project worksheet, a link to your live, depl
 
 Wireframes: The proposed layout and design of your app. Create mockups for your views. If your are creating multiple views including both desktop and mobile formats, and consider whether or not you need to account for landscape and portrait orientations. Please use a digital tool to complete your wireframe.
 
-MVP: A list of features you will need to build in order to meet the Minimum Viable Product. This will be the rubric your project will be graded against.
+# MVP: A list of features you will need to build in order to meet the Minimum Viable Product. This will be the rubric your project will be graded against.
 Post-MVP: A list of additional/advanced features you would like to include in your app after you have met MVP.
 
-Goals: 
+# Goals: 
 Monday: Pitch Project and begin basic code - html/css/javascript
 Tuesday: Finish and refine basic code to be fully functional - add some color and design
 Wenesday: Finish most of project and begin to fix/study code to make code cleaner and simpler
@@ -739,8 +740,15 @@ Friday: Submit Project
 
 
 
-Timeframes:
+# Timeframes:
 
 html - Less than a day (No more than an hour) - extra time allotted for review and additions as needed
 Css - Over three hours of work time. Css displays can change as code is updated and never truly completed
 JavaScript - mor than 8 hours. Will have to constantly revist code to updat or dry up code to make it look better and run smoother
+
+
+| Tables        | Are           | Cool  |
+| ------------- |:-------------:| -----:|
+| col 3 is      | right-aligned | $1600 |
+| col 2 is      | centered      |   $12 |
+| zebra stripes | are neat      |    $1 |
