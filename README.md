@@ -254,9 +254,19 @@ Build tasks are in npm scripts:
 
     npm run build
     npm run test
+MVP
+_____________________________________ =>
+App built with JS/CSS/HTML
+Styled WITH Flexbox
+Use fetched data from https://pokemontcg.io/
+used @mediaQuery
 
-
-
+###
+Fulfill the build requirements you have specified in your MVP.
+Deployed site on Github Pages.
+At least 30 commits in your project repository
+###
+A README.md file that contains your project worksheet, a link to your live, deployed site, and any necessary installation instructions such as npm i.
 
 Wireframes: The proposed layout and design of your app. Create mockups for your views. If your are creating multiple views including both desktop and mobile formats, and consider whether or not you need to account for landscape and portrait orientations. Please use a digital tool to complete your wireframe.
 
@@ -267,5 +277,13 @@ Goals:
 Monday: Pitch Project and begin basic code - html/css/javascript
 Tuesday: Finish and refine basic code to be fully functional - add some color and design
 Wenesday: Finish most of project and begin to fix/study code to make code cleaner and simpler
-Thursday 
-Timeframes: How long you anticipate spending on each area of development. Be sure to consider how many hours a day you plan to be coding and how many days you have available until presentation day. Components should be broken down into a maximum of 3 hours time blocks.
+Thursday: Finalize Project and review over it for any additionbs that could be made.
+Friday: Submit Project
+
+
+
+Timeframes:
+
+html - Less than a day (No more than an hour) - extra time allotted for review and additions as needed
+Css - Over three hours of work time. Css displays can change as code is updated and never truly completed
+JavaScript - mor than 8 hours. Will have to constantly revist code to updat or dry up code to make it look better and run smoother
