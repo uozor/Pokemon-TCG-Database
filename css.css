@@ -13,17 +13,17 @@
   
 }
 
-#form {
-  align-items: center;
-  align-content: stretch;
-  background-color: blue;
+.poke {
+ border-radius: 50px;
+}
+#search{
+  border-radius: 50px;
 }
 
 body {
   background-color: black;
-  display: flex;
   justify-content: center;
-  margin: 0;
+  margin: 0 0 9px 0;
 
 }
 
@@ -34,5 +34,8 @@ header {
 }
 #title {
   color: white;
+  text-align: center;
+  align-content: center;
+  background-image: url('https://lh3.googleusercontent.com/I6vcHs6Xhvz619j4S_4ptsthuQNrFej1nIT6x4okp45FcE0vUKYIAjVmRx1tngDumbRd=s128');
 }
 
