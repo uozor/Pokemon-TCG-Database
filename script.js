@@ -1,4 +1,4 @@
-const pokemon = document.body.querySelector(".poke").value.toLowerCase();
+
 const body = document.body;
 //const images = document.body.querySelector.value.id
 /*export default {
@@ -29,6 +29,7 @@ pokemon.card.find('base1-4')
 
 */
 document.querySelector('#searchPoke').addEventListener('click', () => {
+  const pokemon = document.body.querySelector(".poke").value.toLowerCase();
   fetch(`https://api.pokemontcg.io/v2/cards?q=name:${pokemon}`)
     .then((res) => res.json())
     .then((data) => {
@@ -37,13 +38,14 @@ document.querySelector('#searchPoke').addEventListener('click', () => {
       //const poke = document.querySelector(".poke").value;
       //document.querySelector(".poke").value;
       //console.log(poke)
+
       data.data.forEach(card => {
         if (pokemon.toLowerCase() == card.name.toLowerCase()) {
           let option = document.createElement('img');
           option.textContent = `${card.name} ${card.id}`;
           option.src = card.images.small;
           option.classList.add('gen');
-          body.append(option);
+          document.getElementById('pokeGrid').append(option);
           //sel.classList.remove('hide');
           let images = option.value;
           option.addEventListener('click', function () {
