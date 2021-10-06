@@ -55,14 +55,6 @@ document.querySelector('#search').addEventListener('click', () => {
                
       });
     });
-});//catch ((err) => console.log(err));
-
-
-//Object.entries pokemon.forEach(), =>
-
-//for () {
-  //const image = document.createElement('div');
-  //pokeName.textContent = `name:${name}[]`;
-    //document.createElement('div');
+});
 
 
