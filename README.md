@@ -1,7 +1,10 @@
-App Title: POKEMON TCG DATABASE
-App Description: Look up any pokemon card with a name
+### App Title: POKEMON TCG DATABASE
+
+### App Description: Look up any pokemon card with a name
+
 API: THE POKÉMON TCG API
      https://api.pokemontcg.io/v2/cards 
+     
 API Snippet:{
     "data": [
         {
