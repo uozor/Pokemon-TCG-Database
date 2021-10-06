@@ -34,9 +34,8 @@ document.querySelector('#searchPoke').addEventListener('click', () => {
     .then((res) => res.json())
     .then((data) => {
       console.log(data);
-
-      //const poke = document.querySelector(".poke").value;
-      //document.querySelector(".poke").value;
+      //const pokemon = document.querySelector(".poke").value;
+      document.querySelector(".poke").value;
       //console.log(poke)
 
       data.data.forEach(card => {
@@ -50,9 +49,10 @@ document.querySelector('#searchPoke').addEventListener('click', () => {
           let images = option.value;
           option.addEventListener('click', function () {
             images = option.value;
-            //console.log(images);
+            console.log(images);
           });
-        }            
+        }
+               
       });
     });
 });//catch ((err) => console.log(err));

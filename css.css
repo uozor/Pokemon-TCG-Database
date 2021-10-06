@@ -1,5 +1,5 @@
 #pokeGrid {
-  display: block;
+
   flex-direction: column;
   display: flex;
 
@@ -10,7 +10,7 @@
   
 }
 
-#inPut {
+#form {
   align-items: center;
   align-content: stretch;
   background-color: blue;
