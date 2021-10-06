@@ -1,6 +1,6 @@
-const poke = document.body.querySelector(".poke").value;
-const body = document.body
-const images = document.body.querySelector.value
+const pokemon = document.body.querySelector(".poke").value.toLowerCase();
+const body = document.body;
+//const images = document.body.querySelector.value.id
 /*export default {
   host: 'https://api.pokemontcg.io/v2'
 }  
@@ -29,16 +29,16 @@ pokemon.card.find('base1-4')
 
 */
 document.querySelector('#searchPoke').addEventListener('click', () => {
-  fetch('https://api.pokemontcg.io/v2/cards?q')
-    .then((res) => res.json(images))
+  fetch(`https://api.pokemontcg.io/v2/cards?q=name:${pokemon}`)
+    .then((res) => res.json())
     .then((data) => {
       console.log(data);
 
-      const poke = document.querySelector(".poke").value;
+      //const poke = document.querySelector(".poke").value;
       //document.querySelector(".poke").value;
-      console.log(poke)
+      //console.log(poke)
       data.data.forEach(card => {
-        if (poke.toLowerCase() == card.name.toLowerCase()) {
+        if (pokemon.toLowerCase() == card.name.toLowerCase()) {
           let option = document.createElement('img');
           option.textContent = `${card.name} ${card.id}`;
           option.src = card.images.small;
@@ -59,10 +59,9 @@ document.querySelector('#searchPoke').addEventListener('click', () => {
 
 //Object.entries pokemon.forEach(), =>
 
-for () {
-  const image = document.createElement('div');
-  pokeName.textContent = `name:${name}[]`;
+//for () {
+  //const image = document.createElement('div');
+  //pokeName.textContent = `name:${name}[]`;
     //document.createElement('div');
 
 
-}
