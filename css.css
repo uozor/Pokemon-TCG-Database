@@ -6,7 +6,7 @@
 }
 
 #flex-container {
-  display: flex;
+
   
 }
 
@@ -14,4 +14,10 @@
   align-items: center;
   align-content: stretch;
   background-color: blue;
+}
+
+body {
+  background-image:'https://upload.wikimedia.org/wikipedia/en/thumb/3/3b/Pokemon_Trading_Card_Game_cardback.jpg/220px-Pokemon_Trading_Card_Game_cardback.jpg';
+  display: flex;
+  justify-content: center;
 }
