@@ -49,14 +49,10 @@ document.querySelector('#searchPoke').addEventListener('click', () => {
           //sel.classList.remove('hide');
           let images = option.value;
           option.addEventListener('click', function () {
-            images = option.value
-            //console.log(images);
-          )} else if (keyCode == '13') {
             images = option.value;
-          }
-        
-        
-               
+            //console.log(images);
+          });
+        }            
       });
     });
 });//catch ((err) => console.log(err));

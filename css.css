@@ -1,12 +1,13 @@
 #pokeGrid {
-  box-sizing: inherit;
+  display: block;
   flex-direction: column;
   display: flex;
+
 }
 
 #flex-container {
-  flex-wrap:wrap;
-  max-width: 500px;
+  display: flex;
+  
 }
 
 #inPut {
