@@ -28,7 +28,7 @@ pokemon.card.find('base1-4')
 })
 
 */
-document.querySelector('#searchPoke').addEventListener('click', () => {
+document.querySelector('#search').addEventListener('click', () => {
   const pokemon = document.body.querySelector(".poke").value.toLowerCase();
   fetch(`https://api.pokemontcg.io/v2/cards?q=name:${pokemon}`)
     .then((res) => res.json())
