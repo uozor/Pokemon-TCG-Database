@@ -6,15 +6,20 @@
   display: flex;
   flex-flow: wrap;
   margin: 3px 2 2 2;
-  justify-content: flex-start;
+  justify-content: center;
+  align-content: center;
 
 }
 
 #flex-container {
+  display: flexbox;
+  margin-top: 7px;
+
 
   
 }
 .audioBox{
+  margin-top: 4px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -47,13 +52,17 @@ header {
   color: white;
   text-align: center;
   font-weight: 900;
-  box-shadow: 1px 0 2px 0;
+  box-shadow: 2px 0 2px 0;
+  border-top: 2px;
+  object-fit: fill;
+  border-bottom: 2px;
+  object-fit: fit;
   padding: 10px;
   align-content: center;
   background-image:linear-gradient(
     rgba(0, 0, 0, 0.5),
     rgba(0, 0, 0, 0.5)
-  ), url('https://lh3.googleusercontent.com/I6vcHs6Xhvz619j4S_4ptsthuQNrFej1nIT6x4okp45FcE0vUKYIAjVmRx1tngDumbRd=s128');
+  ), url('https://images.nintendolife.com/e427e43330fc6/pokemon-tcg.original.jpg');
 
   @media screen and (max-height: 450px) {
     font-size: 20px
