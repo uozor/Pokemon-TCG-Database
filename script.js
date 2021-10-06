@@ -46,7 +46,7 @@ document.querySelector('#search').addEventListener('click', () => {
           option.classList.add('gen');
           document.getElementById('pokeGrid').append(option);
           //sel.classList.remove('hide');
-          let images = option.value;
+          //let images = option.value;
           option.addEventListener('click', function () {
             images = option.value;
             console.log(images);
