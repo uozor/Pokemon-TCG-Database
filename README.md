@@ -1,16 +1,17 @@
-POKEMON TCG DATABASE
+# POKEMON TCG DATABASE
 https://uozor.github.io/Pokemon-TCG-Database/
 ______________________________________________________________=>
 
-### App Title: POKEMON TCG DATABASE 
+# App Title: POKEMON TCG DATABASE 
 
-### App Description: Look up any pokemon card with a name
+## App Description: Look up any pokemon card with a name
 
 API: THE POKÉMON TCG API
      https://api.pokemontcg.io/v2/cards 
      
-API Snippet:{
-    {
+#API Snippet:{
+    
+    ```{
     "data": [
         {
             "id": "xy10-25",
@@ -574,7 +575,7 @@ API Snippet:{
     "pageSize": 250,
     "count": 5,
     "totalCount": 5
-}
+}```
 # Pokémon TCG SDK
 
 *Now Supporting Version 2 of the Pokémon TCG API!*
