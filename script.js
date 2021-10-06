@@ -49,7 +49,7 @@ document.querySelector('#search').addEventListener('click', () => {
           //let images = option.value;
           option.addEventListener('click', function () {
             images = option.value;
-            console.log(images);
+            return(images);
           });
         }
                
