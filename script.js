@@ -34,6 +34,7 @@ document.querySelector('#search').addEventListener('click', () => {
     .then(res => res.json())
     .then(data => {
       console.log(data);
+      document.querySelector('#pokeGrid').innerHTML = ''
       //const pokemon = document.querySelector(".poke").value;
       document.querySelector(".poke").value;
       //console.log(poke)
