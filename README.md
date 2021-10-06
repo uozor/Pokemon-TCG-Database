@@ -10,6 +10,7 @@ API: THE POKÉMON TCG API
      https://api.pokemontcg.io/v2/cards 
      
 API Snippet:{
+    {
     "data": [
         {
             "id": "xy10-25",
@@ -126,6 +127,454 @@ API Snippet:{
                 }
             }
         },
+        {
+            "id": "xy10-26",
+            "name": "M Alakazam-EX",
+            "supertype": "Pokémon",
+            "subtypes": [
+                "MEGA",
+                "EX"
+            ],
+            "hp": "210",
+            "types": [
+                "Psychic"
+            ],
+            "evolvesFrom": "Alakazam-EX",
+            "rules": [
+                "Mega Evolution rule: When 1 of your Pokémon becomes a Mega Evolution Pokémon, your turn ends.",
+                "Pokémon-EX rule: When a Pokémon-EX has been Knocked Out, your opponent takes 2 Prize cards."
+            ],
+            "attacks": [
+                {
+                    "name": "Zen Force",
+                    "cost": [
+                        "Psychic",
+                        "Colorless"
+                    ],
+                    "convertedEnergyCost": 2,
+                    "damage": "10+",
+                    "text": "This attack does 30 more damage for each damage counter on your opponent's Active Pokémon."
+                }
+            ],
+            "weaknesses": [
+                {
+                    "type": "Psychic",
+                    "value": "×2"
+                }
+            ],
+            "retreatCost": [
+                "Colorless"
+            ],
+            "convertedRetreatCost": 1,
+            "set": {
+                "id": "xy10",
+                "name": "Fates Collide",
+                "series": "XY",
+                "printedTotal": 124,
+                "total": 125,
+                "legalities": {
+                    "unlimited": "Legal",
+                    "expanded": "Legal"
+                },
+                "ptcgoCode": "FCO",
+                "releaseDate": "2016/05/02",
+                "updatedAt": "2018/09/03 11:49:00",
+                "images": {
+                    "symbol": "https://images.pokemontcg.io/xy10/symbol.png",
+                    "logo": "https://images.pokemontcg.io/xy10/logo.png"
+                }
+            },
+            "number": "26",
+            "artist": "5ban Graphics",
+            "rarity": "Rare Holo EX",
+            "nationalPokedexNumbers": [
+                65
+            ],
+            "legalities": {
+                "unlimited": "Legal",
+                "expanded": "Legal"
+            },
+            "images": {
+                "small": "https://images.pokemontcg.io/xy10/26.png",
+                "large": "https://images.pokemontcg.io/xy10/26_hires.png"
+            },
+            "tcgplayer": {
+                "url": "https://prices.pokemontcg.io/tcgplayer/xy10-26",
+                "updatedAt": "2021/10/04",
+                "prices": {
+                    "holofoil": {
+                        "low": 2.72,
+                        "mid": 4.68,
+                        "high": 25.99,
+                        "market": 4.42,
+                        "directLow": 2.72
+                    }
+                }
+            },
+            "cardmarket": {
+                "url": "https://prices.pokemontcg.io/cardmarket/xy10-26",
+                "updatedAt": "2021/10/04",
+                "prices": {
+                    "averageSellPrice": 6.2,
+                    "lowPrice": 2.0,
+                    "trendPrice": 5.91,
+                    "germanProLow": null,
+                    "suggestedPrice": null,
+                    "reverseHoloSell": null,
+                    "reverseHoloLow": null,
+                    "reverseHoloTrend": 7.21,
+                    "lowPriceExPlus": 5.0,
+                    "avg1": 6.0,
+                    "avg7": 6.2,
+                    "avg30": 6.02,
+                    "reverseHoloAvg1": 7.9,
+                    "reverseHoloAvg7": 5.82,
+                    "reverseHoloAvg30": 5.72
+                }
+            }
+        },
+        {
+            "id": "xy10-117",
+            "name": "Alakazam-EX",
+            "supertype": "Pokémon",
+            "subtypes": [
+                "Basic",
+                "EX"
+            ],
+            "hp": "160",
+            "types": [
+                "Psychic"
+            ],
+            "evolvesTo": [
+                "M Alakazam-EX"
+            ],
+            "rules": [
+                "Pokémon-EX rule: When a Pokémon-EX has been Knocked Out, your opponent takes 2 Prize cards."
+            ],
+            "abilities": [
+                {
+                    "name": "Kinesis",
+                    "text": "When you play M Alakazam-EX from your hand to evolve this Pokémon, before it evolves, you may put 2 damage counters on your opponent's Active Pokémon and 3 damage counters on 1 of your opponent's Benched Pokémon.",
+                    "type": "Ability"
+                }
+            ],
+            "attacks": [
+                {
+                    "name": "Suppression",
+                    "cost": [
+                        "Psychic",
+                        "Colorless"
+                    ],
+                    "convertedEnergyCost": 2,
+                    "damage": "",
+                    "text": "Put 3 damage counters on each of your opponent's Pokémon that has any Energy attached to it."
+                }
+            ],
+            "weaknesses": [
+                {
+                    "type": "Psychic",
+                    "value": "×2"
+                }
+            ],
+            "retreatCost": [
+                "Colorless",
+                "Colorless"
+            ],
+            "convertedRetreatCost": 2,
+            "set": {
+                "id": "xy10",
+                "name": "Fates Collide",
+                "series": "XY",
+                "printedTotal": 124,
+                "total": 125,
+                "legalities": {
+                    "unlimited": "Legal",
+                    "expanded": "Legal"
+                },
+                "ptcgoCode": "FCO",
+                "releaseDate": "2016/05/02",
+                "updatedAt": "2018/09/03 11:49:00",
+                "images": {
+                    "symbol": "https://images.pokemontcg.io/xy10/symbol.png",
+                    "logo": "https://images.pokemontcg.io/xy10/logo.png"
+                }
+            },
+            "number": "117",
+            "artist": "Ryo Ueda",
+            "rarity": "Rare Ultra",
+            "nationalPokedexNumbers": [
+                65
+            ],
+            "legalities": {
+                "unlimited": "Legal",
+                "expanded": "Legal"
+            },
+            "images": {
+                "small": "https://images.pokemontcg.io/xy10/117.png",
+                "large": "https://images.pokemontcg.io/xy10/117_hires.png"
+            },
+            "tcgplayer": {
+                "url": "https://prices.pokemontcg.io/tcgplayer/xy10-117",
+                "updatedAt": "2021/10/04",
+                "prices": {
+                    "holofoil": {
+                        "low": 4.2,
+                        "mid": 6.46,
+                        "high": 40.0,
+                        "market": 6.47,
+                        "directLow": 5.92
+                    }
+                }
+            },
+            "cardmarket": {
+                "url": "https://prices.pokemontcg.io/cardmarket/xy10-117",
+                "updatedAt": "2021/10/04",
+                "prices": {
+                    "averageSellPrice": 9.39,
+                    "lowPrice": 3.0,
+                    "trendPrice": 9.59,
+                    "germanProLow": null,
+                    "suggestedPrice": null,
+                    "reverseHoloSell": null,
+                    "reverseHoloLow": null,
+                    "reverseHoloTrend": 12.92,
+                    "lowPriceExPlus": 7.5,
+                    "avg1": 9.99,
+                    "avg7": 9.31,
+                    "avg30": 10.25,
+                    "reverseHoloAvg1": 8.0,
+                    "reverseHoloAvg7": 11.3,
+                    "reverseHoloAvg30": 8.23
+                }
+            }
+        },
+        {
+            "id": "xy10-118",
+            "name": "M Alakazam-EX",
+            "supertype": "Pokémon",
+            "subtypes": [
+                "MEGA",
+                "EX"
+            ],
+            "hp": "210",
+            "types": [
+                "Psychic"
+            ],
+            "evolvesFrom": "Alakazam-EX",
+            "rules": [
+                "Mega Evolution rule: When 1 of your Pokémon becomes a Mega Evolution Pokémon, your turn ends.",
+                "Pokémon-EX rule: When a Pokémon-EX has been Knocked Out, your opponent takes 2 Prize cards."
+            ],
+            "attacks": [
+                {
+                    "name": "Zen Force",
+                    "cost": [
+                        "Psychic",
+                        "Colorless"
+                    ],
+                    "convertedEnergyCost": 2,
+                    "damage": "10+",
+                    "text": "This attack does 30 more damage for each damage counter on your opponent's Active Pokémon."
+                }
+            ],
+            "weaknesses": [
+                {
+                    "type": "Psychic",
+                    "value": "×2"
+                }
+            ],
+            "retreatCost": [
+                "Colorless"
+            ],
+            "convertedRetreatCost": 1,
+            "set": {
+                "id": "xy10",
+                "name": "Fates Collide",
+                "series": "XY",
+                "printedTotal": 124,
+                "total": 125,
+                "legalities": {
+                    "unlimited": "Legal",
+                    "expanded": "Legal"
+                },
+                "ptcgoCode": "FCO",
+                "releaseDate": "2016/05/02",
+                "updatedAt": "2018/09/03 11:49:00",
+                "images": {
+                    "symbol": "https://images.pokemontcg.io/xy10/symbol.png",
+                    "logo": "https://images.pokemontcg.io/xy10/logo.png"
+                }
+            },
+            "number": "118",
+            "artist": "5ban Graphics",
+            "rarity": "Rare Ultra",
+            "nationalPokedexNumbers": [
+                65
+            ],
+            "legalities": {
+                "unlimited": "Legal",
+                "expanded": "Legal"
+            },
+            "images": {
+                "small": "https://images.pokemontcg.io/xy10/118.png",
+                "large": "https://images.pokemontcg.io/xy10/118_hires.png"
+            },
+            "tcgplayer": {
+                "url": "https://prices.pokemontcg.io/tcgplayer/xy10-118",
+                "updatedAt": "2021/10/04",
+                "prices": {
+                    "holofoil": {
+                        "low": 6.04,
+                        "mid": 11.13,
+                        "high": 28.99,
+                        "market": 10.21,
+                        "directLow": 6.22
+                    }
+                }
+            },
+            "cardmarket": {
+                "url": "https://prices.pokemontcg.io/cardmarket/xy10-118",
+                "updatedAt": "2021/10/04",
+                "prices": {
+                    "averageSellPrice": 16.41,
+                    "lowPrice": 7.0,
+                    "trendPrice": 17.87,
+                    "germanProLow": null,
+                    "suggestedPrice": null,
+                    "reverseHoloSell": null,
+                    "reverseHoloLow": null,
+                    "reverseHoloTrend": 16.05,
+                    "lowPriceExPlus": 11.0,
+                    "avg1": 17.0,
+                    "avg7": 16.55,
+                    "avg30": 17.0,
+                    "reverseHoloAvg1": 15.0,
+                    "reverseHoloAvg7": 14.49,
+                    "reverseHoloAvg30": 12.83
+                }
+            }
+        },
+        {
+            "id": "xy10-125",
+            "name": "Alakazam-EX",
+            "supertype": "Pokémon",
+            "subtypes": [
+                "Basic",
+                "EX"
+            ],
+            "hp": "160",
+            "types": [
+                "Psychic"
+            ],
+            "evolvesTo": [
+                "M Alakazam-EX"
+            ],
+            "rules": [
+                "Pokémon-EX rule: When a Pokémon-EX has been Knocked Out, your opponent takes 2 Prize cards."
+            ],
+            "abilities": [
+                {
+                    "name": "Kinesis",
+                    "text": "When you play M Alakazam-EX from your hand to evolve this Pokémon, before it evolves, you may put 2 damage counters on your opponent's Active Pokémon and 3 damage counters on 1 of your opponent's Benched Pokémon.",
+                    "type": "Ability"
+                }
+            ],
+            "attacks": [
+                {
+                    "name": "Suppression",
+                    "cost": [
+                        "Psychic",
+                        "Colorless"
+                    ],
+                    "convertedEnergyCost": 2,
+                    "damage": "",
+                    "text": "Put 3 damage counters on each of your opponent's Pokémon that has any Energy attached to it."
+                }
+            ],
+            "weaknesses": [
+                {
+                    "type": "Psychic",
+                    "value": "×2"
+                }
+            ],
+            "retreatCost": [
+                "Colorless",
+                "Colorless"
+            ],
+            "convertedRetreatCost": 2,
+            "set": {
+                "id": "xy10",
+                "name": "Fates Collide",
+                "series": "XY",
+                "printedTotal": 124,
+                "total": 125,
+                "legalities": {
+                    "unlimited": "Legal",
+                    "expanded": "Legal"
+                },
+                "ptcgoCode": "FCO",
+                "releaseDate": "2016/05/02",
+                "updatedAt": "2018/09/03 11:49:00",
+                "images": {
+                    "symbol": "https://images.pokemontcg.io/xy10/symbol.png",
+                    "logo": "https://images.pokemontcg.io/xy10/logo.png"
+                }
+            },
+            "number": "125",
+            "artist": "Ryo Ueda",
+            "rarity": "Rare Secret",
+            "nationalPokedexNumbers": [
+                65
+            ],
+            "legalities": {
+                "unlimited": "Legal",
+                "expanded": "Legal"
+            },
+            "images": {
+                "small": "https://images.pokemontcg.io/xy10/125.png",
+                "large": "https://images.pokemontcg.io/xy10/125_hires.png"
+            },
+            "tcgplayer": {
+                "url": "https://prices.pokemontcg.io/tcgplayer/xy10-125",
+                "updatedAt": "2021/10/04",
+                "prices": {
+                    "holofoil": {
+                        "low": 12.32,
+                        "mid": 19.99,
+                        "high": 59.99,
+                        "market": 18.57,
+                        "directLow": 13.58
+                    }
+                }
+            },
+            "cardmarket": {
+                "url": "https://prices.pokemontcg.io/cardmarket/xy10-125",
+                "updatedAt": "2021/10/04",
+                "prices": {
+                    "averageSellPrice": 25.63,
+                    "lowPrice": 6.8,
+                    "trendPrice": 27.71,
+                    "germanProLow": null,
+                    "suggestedPrice": null,
+                    "reverseHoloSell": null,
+                    "reverseHoloLow": null,
+                    "reverseHoloTrend": 25.71,
+                    "lowPriceExPlus": 18.0,
+                    "avg1": 12.8,
+                    "avg7": 25.84,
+                    "avg30": 27.8,
+                    "reverseHoloAvg1": 20.0,
+                    "reverseHoloAvg7": 23.0,
+                    "reverseHoloAvg30": 19.49
+                }
+            }
+        }
+    ],
+    "page": 1,
+    "pageSize": 250,
+    "count": 5,
+    "totalCount": 5
+}
 # Pokémon TCG SDK
 
 *Now Supporting Version 2 of the Pokémon TCG API!*
