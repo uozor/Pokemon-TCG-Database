@@ -128,18 +128,20 @@ https://pokemontcg.guru/
 
 ## Timeframes:
 
-Monday: Pitch Project and begin basic code - html/css/javascript
-Tuesday: Finish and refine basic code to be fully functional - add some color and design
-Wenesday: Finish most of project and begin to fix/study code to make code cleaner and simpler
-Thursday: Finalize Project and review over it for any additionbs that could be made.
-Friday: Submit Project
+- Monday: Pitch Project and begin basic code - html/css/- javascript
+- Tuesday: Finish and refine basic code to be fully functional  add some color and design
+- Wenesday: Finish most of project and begin to fix/study code to make code cleaner and simpler
+- Thursday: Finalize Project and review over it for any additionbs that could be made.
+- Friday: Submit/Present Project
 
 
 
 ## Timeframes:
 
-html - Less than a day (No more than an hour) - extra time allotted for review and additions as needed
-Css - Over three hours of work time. Css displays can change as code is updated and never truly completed
-JavaScript - mor than 8 hours. Will have to constantly revist code to updat or dry up code to make it look better and run smoother
+- Html - Less than a day (No more than an hour) - extra time allotted for review and additions as needed
+- CSS - Over three hours of work time. Css displays can change as code is updated and never truly completed
+- JavaScript - morE than 8 hours. Will have to constantly revist code to updat or dry up code to make it look better and run smoother
+- Review and structure - throughout every major change be sure to review entire code for any breaks or errors that may appear - ongoing
+
 
 
