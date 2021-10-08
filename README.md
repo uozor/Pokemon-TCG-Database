@@ -13,7 +13,8 @@ https://api.pokemontcg.io/v2/cards
      
 #API Snippet:{
     
-    ```{
+```
+    {
     "data": [
         {
             "id": "xy10-25",
