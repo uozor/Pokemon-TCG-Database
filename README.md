@@ -143,5 +143,15 @@ https://pokemontcg.guru/
 - JavaScript - More than 8 hours. Will have to constantly revist code to updat or dry up code to make it look better and run smoother
 - Review and structure - throughout every major change be sure to review entire code for any breaks or errors that may appear - ongoing
 
+## Code Snippet
+Actually had an issue where my enter function would not work and could only click submit -
 
+```
+<form onsubmit="return false">
+      <input class="poke" placeholder = "Pokemon Name" type="text"><button id="search" type="submit">Search</button>
+    </form>
+```
+## Change Log
+
+Changed background image to something with a better look for word contrast
 
