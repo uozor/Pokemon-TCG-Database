@@ -140,7 +140,7 @@ https://pokemontcg.guru/
 
 - Html - Less than a day (No more than an hour) - extra time allotted for review and additions as needed
 - CSS - Over three hours of work time. Css displays can change as code is updated and never truly completed
-- JavaScript - morE than 8 hours. Will have to constantly revist code to updat or dry up code to make it look better and run smoother
+- JavaScript - More than 8 hours. Will have to constantly revist code to updat or dry up code to make it look better and run smoother
 - Review and structure - throughout every major change be sure to review entire code for any breaks or errors that may appear - ongoing
 
 
