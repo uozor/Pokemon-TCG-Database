@@ -1,14 +1,15 @@
-# POKEMON TCG DATABASE
+## POKEMON TCG DATABASE
 https://uozor.github.io/Pokemon-TCG-Database/
-______________________________________________________________=>
 
-# App Title: POKEMON TCG DATABASE 
+
+## App Title: POKEMON TCG DATABASE 
 
 ## App Description: 
-Look up any pokemon card within the database
+Gotta catch them all! Look up any pokemon card within the database
 
-API: THE POKÉMON TCG API
-     https://api.pokemontcg.io/v2/cards 
+API: THE POKÉMON TCG API and Data Sample
+
+https://api.pokemontcg.io/v2/cards 
      
 #API Snippet:{
     
@@ -102,25 +103,31 @@ API: THE POKÉMON TCG API
             "nationalPokedexNumbers": [
                 65
             ],
-# MVP
-_____________________________________ =>
-App built with JS/CSS/HTML
-Styled WITH Flexbox
-Use fetched data from https://pokemontcg.io/
-used @mediaQuery
 
-###
-Fulfill the build requirements you have specified in your MVP.
-Deployed site on Github Pages.
-At least 30 commits in your project repository
-###
-A README.md file that contains your project worksheet, a link to your live, deployed site, and any necessary installation instructions such as npm i.
+## Wireframes
 
-Wireframes: The proposed layout and design of your app. Create mockups for your views. If your are creating multiple views including both desktop and mobile formats, and consider whether or not you need to account for landscape and portrait orientations. Please use a digital tool to complete your wireframe.
+https://pokemontcg.guru/
 
-Post-MVP: A list of additional/advanced features you would like to include in your app after you have met MVP.
+### MVP/Post MVP
 
-# Goals: 
+### MVP
+
+- Find a pokemon tcg api
+- populate screen with user input
+- App built with JS/HTML
+- Styled with Flexbox/CSS
+- Use fetched data from https://pokemontcg.io/
+- used @mediaQuery for mobile 
+
+### PostMVP
+
+- Add music
+- Add page flipping effect as if holding a card binder
+- Add more card interaction
+- Add card loading effect
+
+## Timeframes:
+
 Monday: Pitch Project and begin basic code - html/css/javascript
 Tuesday: Finish and refine basic code to be fully functional - add some color and design
 Wenesday: Finish most of project and begin to fix/study code to make code cleaner and simpler
@@ -129,15 +136,10 @@ Friday: Submit Project
 
 
 
-# Timeframes:
+## Timeframes:
 
 html - Less than a day (No more than an hour) - extra time allotted for review and additions as needed
 Css - Over three hours of work time. Css displays can change as code is updated and never truly completed
 JavaScript - mor than 8 hours. Will have to constantly revist code to updat or dry up code to make it look better and run smoother
 
 
-| Tables        | Are           | Cool  |
-| ------------- |:-------------:| -----:|
-| col 3 is      | right-aligned | $1600 |
-| col 2 is      | centered      |   $12 |
-| zebra stripes | are neat      |    $1 |

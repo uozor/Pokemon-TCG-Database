@@ -71,7 +71,9 @@ header {
     top: 15px;
     right: 35px;
     display:flex;
-    flex-flow: wrap;
+    flex-flow:column wrap;
+    flex-direction:column;
+    
     }
   }
 }
