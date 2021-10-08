@@ -73,36 +73,7 @@ https://api.pokemontcg.io/v2/cards
                     "type": "Psychic",
                     "value": "×2"
                 }
-            ],
-            "retreatCost": [
-                "Colorless",
-                "Colorless"
-            ],
-            "convertedRetreatCost": 2,
-            "set": {
-                "id": "xy10",
-                "name": "Fates Collide",
-                "series": "XY",
-                "printedTotal": 124,
-                "total": 125,
-                "legalities": {
-                    "unlimited": "Legal",
-                    "expanded": "Legal"
-                },
-                "ptcgoCode": "FCO",
-                "releaseDate": "2016/05/02",
-                "updatedAt": "2018/09/03 11:49:00",
-                "images": {
-                    "symbol": "https://images.pokemontcg.io/xy10/symbol.png",
-                    "logo": "https://images.pokemontcg.io/xy10/logo.png"
-                }
-            },
-            "number": "117",
-            "artist": "Ryo Ueda",
-            "rarity": "Rare Ultra",
-            "nationalPokedexNumbers": [
-                65
-            ],
+```
 
 ## Wireframes
 
