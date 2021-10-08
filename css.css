@@ -64,7 +64,9 @@ header {
     rgba(0, 0, 0, 0.5)
   ), url('https://images.nintendolife.com/e427e43330fc6/pokemon-tcg.original.jpg');
 
-  @media screen and (max-height: 450px) {
+  @media only screen and (max-width 600px) {
+    body{
+    background-color: lightblue;
     font-size: 20px
     top: 15px;
     right: 35px;
@@ -72,3 +74,4 @@ header {
     flex-flow: wrap;
     }
   }
+}
